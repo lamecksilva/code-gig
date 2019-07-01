@@ -1,0 +1,21 @@
+{
+  "name": "code-gig",
+  "version": "1.0.0",
+  "description": "A simple app for developers find a job",
+  "main": "app.js",
+  "repository": "https://github.com/lamecksilva/code-gig.git",
+  "author": "Lameck <lameck2@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.9.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
