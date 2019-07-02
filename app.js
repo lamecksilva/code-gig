@@ -13,12 +13,19 @@ db.authenticate()
 
 const app = express();
 
+// Set static folder
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Handlebars
+app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+app.set('view engine', 'handlebars');
+
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.render('index', { layout: 'landing' });
 });
 
 // Gig routes
-app.use("/gigs", require("./routes/gigs"))
+app.use('/gigs', require('./routes/gigs'));
 
 const PORT = process.env.PORT || 5000;
 
