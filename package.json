@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A simple app for developers find a job",
   "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "repository": "https://github.com/lamecksilva/code-gig.git",
   "author": "Lameck <lameck2@hotmail.com>",
   "license": "MIT",
@@ -14,8 +18,7 @@
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.9.0"
   },
-  "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
