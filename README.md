@@ -17,6 +17,21 @@ yarn
 yarn start
 ```
 
+## Requeriments
+
+* Postgresql
+* Node.js
+* Yarn
+
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/31391753/60555456-48090180-9d13-11e9-8858-97d847d54c76.png)
+
+![image](https://user-images.githubusercontent.com/31391753/60555470-5c4cfe80-9d13-11e9-9fd1-713dec6a36d2.png)
+
+![image](https://user-images.githubusercontent.com/31391753/60555481-6969ed80-9d13-11e9-89ba-425e1af428df.png)
+
+
 ## Author
 
 👤 **Lameck**
